@@ -43,10 +43,7 @@ if cherche(board, CARRE_CASES, 1, 3, 4):
     FON_Police = tkinter.font.Font (family = "arial" , size = "14")
     COULEUR = 0
     CASE = 1
-    for i in range(CARRE_CASES):
-        for y in range(CARRE_CASES):
-            print(board[i][y], " ")
-        print("\n")
+    print(board)
 
     #Création Echiquier
     for i in range(CARRE_CASES):
